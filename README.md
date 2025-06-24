@@ -1,5 +1,5 @@
 # PileGAN
-Intelligent Generative Structural Design Method for bridge pile foundation design based on "image-condition" Pix2PixHD
+Intelligent Generative Structural Design Method for bridge single-pile design based on "image-condition" Pix2PixHD
 
 ![graph abstract.png](other/graph%20abstract.png)
 
