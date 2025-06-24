@@ -493,10 +493,7 @@ from torchvision import models
 class Vgg19(torch.nn.Module):
     def __init__(self, requires_grad=False):
         super(Vgg19, self).__init__()
-        #vgg_pretrained_features = models.vgg19(pretrained=True).features
-        vgg_model = models.vgg19(pretrained=False)
-        vgg_model.load_state_dict(torch.load("vgg19.pth"))
-        vgg_pretrained_features = vgg_model.features
+        vgg_pretrained_features = models.vgg19(pretrained=True).features
         self.slice1 = torch.nn.Sequential()
         self.slice2 = torch.nn.Sequential()
         self.slice3 = torch.nn.Sequential()
