@@ -1,7 +1,7 @@
 # PileGAN
 Intelligent Generative Structural Design Method for bridge pile foundation design based on "image-condition" Pix2PixHD
 
-![graph abstract.png](other/graph%20abstract.png)
+![graph abstract.png](other/graph abstract.png)
 
 # Lib Name-Version
 python                    3.6.13  
